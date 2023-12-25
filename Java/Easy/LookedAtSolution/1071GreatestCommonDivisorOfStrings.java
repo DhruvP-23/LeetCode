@@ -1,3 +1,4 @@
+package LookedAtSolution;
 class Solution {
     
 
