@@ -10,6 +10,3 @@ class Solution {
         return output.toString();
     }
 }             
-
-git config --global user.email "dhruvj1323@gmail.com"
-git config --global user.name "DhruvP23"
