@@ -1,3 +1,4 @@
+package SolvedByMe;
 class Solution {
     public String mergeAlternately(String word1, String word2) {
         StringBuilder output = new StringBuilder();

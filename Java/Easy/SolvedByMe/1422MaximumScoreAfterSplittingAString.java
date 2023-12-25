@@ -1,3 +1,4 @@
+package SolvedByMe;
 class Solution {
     public int maxScore(String s) {
         int output = 0;

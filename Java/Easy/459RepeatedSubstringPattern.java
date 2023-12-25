@@ -1,17 +1,8 @@
-public class RepeatedSubstringPattern {
-
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        System.out.println(sol.repeatedSubstringPattern("abab"));
-        System.out.println(sol.repeatedSubstringPattern("aba"));
-        System.out.println(sol.repeatedSubstringPattern("abcabcabcabc"));
+class Solution {
+    public boolean repeatedSubstringPattern(String s) {
+        return false;
     }
-
-        public boolean repeatedSubstringPattern(String s) {
-        return (s+s).substring(1, 2*s.length()-1).contains(s);
-    }
-
-
+    
 }
 
 // Given a string s, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.

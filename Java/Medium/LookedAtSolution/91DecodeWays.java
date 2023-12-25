@@ -1,4 +1,4 @@
-package Java.Medium;
+package Java.Medium.LookedAtSolution;
 
 class Solution {
     public int numDecodings(String s) {
