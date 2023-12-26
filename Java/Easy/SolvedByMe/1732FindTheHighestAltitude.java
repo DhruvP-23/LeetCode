@@ -1,3 +1,5 @@
+package SolvedByMe;
+
 class Solution {
     public int largestAltitude(int[] gain) {
         int lastAlt = 0, highestAlt = 0, currAlt = 0;
