@@ -1,13 +1,20 @@
 class Solution {
     public int pivotIndex(int[] nums) {
-        int pivotIndex = 0;
-
-        if(nums.length % 2 == 0){
-
-
+        int sum = 0;
+        for(int i : nums){
+            sum += i;
         }
-        
-        return pivotIndex;
+
+        int leftSum = 0, rightSum = sum;
+        for(int i = 0; i < nums.length; i++){
+            rightSum -= i;
+            leftSum += i; 
+            
+            if(rightSum == leftSum) return i;
+        }
+
+        System.out.println(sum);
+        return -1;
     }
 }
 
@@ -18,8 +25,6 @@ class Solution {
 // If the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array.
 
 // Return the leftmost pivot index. If no such index exists, return -1.
-
- 
 
 // Example 1:
 
